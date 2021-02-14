@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=+3.3V Pin=K1-6
+Removed Pin From Net: NetName=+3.3V Pin=K1-12
+Removed Pin From Net: NetName=+3.3V Pin=K2-6
+Removed Pin From Net: NetName=+3.3V Pin=K2-12
+Change Component Comment : Designator=R6 Old Comment=4k7 New Comment=1.6k 1%
+Change Component Comment : Designator=R9 Old Comment=4k7 New Comment=2k
+Change Component Comment : Designator=R10 Old Comment=4k7 New Comment=2k
+Change Component Comment : Designator=R1 Old Comment=4k7 New Comment=10k
+Change Component Comment : Designator=R3 Old Comment=4k7 New Comment=10k
+Change Component Comment : Designator=R4 Old Comment=4k7 New Comment=36k
+Change Component Comment : Designator=R5 Old Comment=4k7 New Comment=36k
+Added Component: Designator=JP3(JUMPER2)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3V Pin=JP3-2
+Added Pin To Net: NetName=Vcc Pin=JP3-1
+Added Pin To Net: NetName=Vcc Pin=K1-6
+Added Pin To Net: NetName=Vcc Pin=K1-12
+Added Pin To Net: NetName=Vcc Pin=K2-6
+Added Pin To Net: NetName=Vcc Pin=K2-12
+Added Net: Name=Vcc
+Added Member To Class: ClassName=ft600 Member=Component JP3 JUMPER2
