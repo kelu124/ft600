@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: ft600.GBR   14.02.2021  09:59:58
+Gerber File Extension Report For: ft600.GBR   17.02.2021  14:55:39
 ------------------------------------------------------------------------------------------
 
 
@@ -14,4 +14,5 @@ Layer Extension     Layer Description
 .GBS                Bottom Solder                           
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
 ------------------------------------------------------------------------------------------

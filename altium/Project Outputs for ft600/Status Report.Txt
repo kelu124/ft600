@@ -1,34 +1,21 @@
-Output: ODB++ Files
-Type  : ODB
+Output: Gerber Files
+Type  : Gerber
 From  : Variant [[No Variations]] of Project [ft600.PrjPcb]
-   Generated File[matrix]
-   Generated File[profile]
-   Generated File[stephdr]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[features]
-   Generated File[tools]
-   Generated File[features]
-   Generated File[components]
-   Generated File[features]
-   Generated File[components]
-   Generated File[data]
-   Generated File[netlist]
+   Generated File[ft600.GTO]
+   Generated File[ft600.GTP]
+   Generated File[ft600.GTS]
+   Generated File[ft600.GTL]
+   Generated File[ft600.GBL]
+   Generated File[ft600.GBS]
+   Generated File[ft600.GBP]
+   Generated File[ft600.GBO]
+   Generated File[ft600.GM1]
+   Generated File[ft600.RUL]
+   Generated File[ft600.EXTREP]
    Generated File[ft600.REP]
 
 
-Files Generated   : 25
+Files Generated   : 12
 Documents Printed : 0
 
-Finished Output Generation At 10:01:06 On 14.02.2021
+Finished Output Generation At 14:55:40 On 17.02.2021

@@ -1,80 +1,219 @@
 *************************************************************
-FileName = ft600.PcbDoc
-ODB++ directory structure
+FileName = ft600.GBR
+AutoAperture = True
 *************************************************************
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\matrix\matrix
+Generating : Mechanical 1
+      File : ft600.GM1
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\profile
+    Adding Layer      : Mechanical 1
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\stephdr
+    Adding Layer      : Mechanical 1
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\attrlist
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\keep-out_layer\features
+Used DCodes :
+    D11
+*************************************************************
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\keep-out_layer\attrlist
+*************************************************************
+Generating : Bottom Overlay
+      File : ft600.GBO
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\mechanical_13\features
+    Adding Layer      : Bottom Overlay
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\mechanical_13\attrlist
+    Adding Layer      : Mechanical 1
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\mechanical_14\features
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\mechanical_14\attrlist
+Used DCodes :
+    D11
+    D12
+    D15
+*************************************************************
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\mechanical_1\features
+*************************************************************
+Generating : Bottom Paste
+      File : ft600.GBP
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\mechanical_1\attrlist
+    Adding Layer      : Bottom Paste
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\mechanical_15\features
+    Adding Layer      : Mechanical 1
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\mechanical_15\attrlist
+    Adding Layer      : Bottom Layer
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\bottom_overlay\features
+    Adding Layer      : Multi-Layer
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\bottom_overlay\attrlist
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\bottom_paste\features
+Used DCodes :
+    D11
+    D18
+    D24
+*************************************************************
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\bottom_paste\attrlist
+*************************************************************
+Generating : Bottom Solder
+      File : ft600.GBS
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\bottom_solder\features
+    Adding Layer      : Bottom Solder
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\bottom_solder\attrlist
+    Adding Layer      : Mechanical 1
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\top_layer\features
+    Adding Layer      : Bottom Layer
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\top_layer\attrlist
+    Adding Layer      : Multi-Layer
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\top_paste\features
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\top_paste\attrlist
+Used DCodes :
+    D11
+    D30
+    D36
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+*************************************************************
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\top_overlay\features
+*************************************************************
+Generating : Top Solder
+      File : ft600.GTS
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\top_overlay\attrlist
+    Adding Layer      : Top Solder
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\top_solder\features
+    Adding Layer      : Mechanical 1
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\top_solder\attrlist
+    Adding Layer      : Top Layer
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\bottom_layer\features
+    Adding Layer      : Multi-Layer
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\bottom_layer\attrlist
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\drill\features
+Used DCodes :
+    D11
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+*************************************************************
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\drill\attrlist
+*************************************************************
+Generating : Top Paste
+      File : ft600.GTP
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\drill\tools
+    Adding Layer      : Top Paste
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\comp_+_bot\features
+    Adding Layer      : Mechanical 1
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\comp_+_bot\components
+    Adding Layer      : Top Layer
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\comp_+_top\features
+    Adding Layer      : Multi-Layer
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\layers\comp_+_top\components
 
-Generated File : E:\my_work\Luc\ft600\ft600\Project Outputs for ft600\odb\steps\pcb\eda\data
+Used DCodes :
+    D11
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : ft600.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : ft600.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D18
+    D24
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : ft600.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+*************************************************************
 

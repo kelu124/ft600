@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=oe Pin=K2-3
-Removed Pin From Net: NetName=rxf Pin=K2-8
-Removed Pin From Net: NetName=txe Pin=K2-10
-Added Pin To Net: NetName=rxf Pin=K2-3
-Added Pin To Net: NetName=rd Pin=K2-4
-Added Pin To Net: NetName=txe Pin=K2-8
-Added Pin To Net: NetName=oe Pin=K2-10
