@@ -2,7 +2,7 @@
 
 Breakout of ft600, 8 data bits, 2 PMODs.
 
-![](top.png)
+![](ft600.png)
 
 # Images
 
