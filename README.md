@@ -4,8 +4,13 @@ Breakout of ft600, 8 data bits, 2 PMODs.
 
 ![](top.png)
 
+# Images
 
-# License
+![](/images/20210323_210219.jpg)
+
+![](/images/20210323_210100.jpg)
+
+# License
 
 See [LICENSE.txt](LICENSE.txt)
 
