@@ -10,6 +10,10 @@ Breakout of ft600, 8 data bits, 2 PMODs.
 
 ![](/images/20210323_210100.jpg)
 
+# OSHWA certified ! 
+
+[https://certification.oshwa.org/fr000015.html](https://certification.oshwa.org/fr000015.html)
+
 # License
 
 See [LICENSE.txt](LICENSE.txt)
