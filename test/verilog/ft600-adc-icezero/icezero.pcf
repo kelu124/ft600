@@ -1,0 +1,24 @@
+# PMOD3
+set_io -nowarn data[0] 26
+set_io -nowarn data[1] 41
+set_io -nowarn data[2] 39
+set_io -nowarn data[3] 29
+set_io -nowarn data[4] 38
+set_io -nowarn data[5] 28
+set_io -nowarn data[6] 37
+set_io -nowarn data[7] 52
+
+# PMOD4
+set_io -nowarn clk   1
+set_io -nowarn be[0] 21
+set_io -nowarn be[1] 144
+set_io -nowarn txe_n 20
+set_io -nowarn rxf_n 143
+set_io -nowarn wr_n  8
+set_io -nowarn rd_n  142
+set_io -nowarn oe_n  7
+
+# LEDs
+set_io led1 110
+set_io led2  93
+set_io led3  94
