@@ -1,0 +1,104 @@
+// Reading input .asc file..
+// Reading 8k chipdb file..
+// Creating timing netlist..
+
+icetime topological timing analysis report
+==========================================
+
+Report for critical path:
+-------------------------
+
+        lc40_30_29_0 (LogicCell40) [clk] -> lcout: 0.640 ns
+     0.640 ns net_120437 (led1_SB_LUT4_I2_I3[1])
+        t131 (LocalMux) I -> O: 0.330 ns
+        inmux_31_29_128640_128666 (InMux) I -> O: 0.260 ns
+        lc40_31_29_0 (LogicCell40) in1 -> carryout: 0.260 ns
+     1.489 ns t19
+        lc40_31_29_1 (LogicCell40) carryin -> carryout: 0.126 ns
+     1.615 ns net_128670 (led1_SB_LUT4_I2_I3[2])
+        lc40_31_29_2 (LogicCell40) carryin -> carryout: 0.126 ns
+     1.741 ns net_128676 (led1_SB_LUT4_I2_I3[3])
+        lc40_31_29_3 (LogicCell40) carryin -> carryout: 0.126 ns
+     1.867 ns net_128682 (led1_SB_LUT4_I2_I3[4])
+        lc40_31_29_4 (LogicCell40) carryin -> carryout: 0.126 ns
+     1.994 ns net_128688 (led1_SB_LUT4_I2_I3[5])
+        lc40_31_29_5 (LogicCell40) carryin -> carryout: 0.126 ns
+     2.120 ns net_128694 (led1_SB_LUT4_I2_I3[6])
+        lc40_31_29_6 (LogicCell40) carryin -> carryout: 0.126 ns
+     2.246 ns net_128700 (led1_SB_LUT4_I2_I3[7])
+        lc40_31_29_7 (LogicCell40) carryin -> carryout: 0.126 ns
+     2.372 ns net_128706 (led1_SB_LUT4_I2_I3[8])
+        t21 (ICE_CARRY_IN_MUX) carryinitin -> carryinitout: 0.196 ns
+        lc40_31_30_0 (LogicCell40) carryin -> carryout: 0.126 ns
+     2.695 ns net_128787 (led1_SB_LUT4_I2_I3[9])
+        lc40_31_30_1 (LogicCell40) carryin -> carryout: 0.126 ns
+     2.821 ns net_128793 (led1_SB_LUT4_I2_I3[10])
+        lc40_31_30_2 (LogicCell40) carryin -> carryout: 0.126 ns
+     2.947 ns net_128799 (led1_SB_LUT4_I2_I3[11])
+        lc40_31_30_3 (LogicCell40) carryin -> carryout: 0.126 ns
+     3.074 ns net_128805 (led1_SB_LUT4_I2_I3[12])
+        lc40_31_30_4 (LogicCell40) carryin -> carryout: 0.126 ns
+     3.200 ns net_128811 (led1_SB_LUT4_I2_I3[13])
+        lc40_31_30_5 (LogicCell40) carryin -> carryout: 0.126 ns
+     3.326 ns net_128817 (led1_SB_LUT4_I2_I3[14])
+        lc40_31_30_6 (LogicCell40) carryin -> carryout: 0.126 ns
+     3.452 ns net_128823 (led1_SB_LUT4_I2_I3[15])
+        lc40_31_30_7 (LogicCell40) carryin -> carryout: 0.126 ns
+     3.579 ns net_128829 (led1_SB_LUT4_I2_I3[16])
+        t22 (ICE_CARRY_IN_MUX) carryinitin -> carryinitout: 0.196 ns
+        lc40_31_31_0 (LogicCell40) carryin -> carryout: 0.126 ns
+     3.901 ns net_128910 (led1_SB_LUT4_I2_I3[17])
+        lc40_31_31_1 (LogicCell40) carryin -> carryout: 0.126 ns
+     4.028 ns net_128916 (led1_SB_LUT4_I2_I3[18])
+        lc40_31_31_2 (LogicCell40) carryin -> carryout: 0.126 ns
+     4.154 ns net_128922 (led1_SB_LUT4_I2_I3[19])
+        lc40_31_31_3 (LogicCell40) carryin -> carryout: 0.126 ns
+     4.280 ns net_128928 (led1_SB_LUT4_I2_I3[20])
+        lc40_31_31_4 (LogicCell40) carryin -> carryout: 0.126 ns
+     4.406 ns net_128934 (led1_SB_LUT4_I2_I3[21])
+        lc40_31_31_5 (LogicCell40) carryin -> carryout: 0.126 ns
+     4.532 ns net_128940 (led1_SB_LUT4_I2_I3[22])
+        lc40_31_31_6 (LogicCell40) carryin -> carryout: 0.126 ns
+     4.659 ns net_128946 (led1_SB_LUT4_I2_I3[23])
+        lc40_31_31_7 (LogicCell40) carryin -> carryout: 0.126 ns
+     4.785 ns net_128952 (led1_SB_LUT4_I2_I3[24])
+        t23 (ICE_CARRY_IN_MUX) carryinitin -> carryinitout: 0.196 ns
+        lc40_31_32_0 (LogicCell40) carryin -> carryout: 0.126 ns
+     5.108 ns net_129033 (led1_SB_LUT4_I2_I3[25])
+        inmux_31_32_129033_129043 (InMux) I -> O: 0.260 ns
+     5.367 ns net_129043 (led1_SB_LUT4_I2_I3[25])
+        lc40_31_32_1 (LogicCell40) in3 [setup]: 0.217 ns
+     5.584 ns net_124884 (led1$SB_IO_OUT)
+
+Resolvable net names on path:
+     0.640 ns ..  1.229 ns led1_SB_LUT4_I2_I3[1]
+     1.615 ns ..  1.615 ns led1_SB_LUT4_I2_I3[2]
+     1.741 ns ..  1.741 ns led1_SB_LUT4_I2_I3[3]
+     1.867 ns ..  1.867 ns led1_SB_LUT4_I2_I3[4]
+     1.994 ns ..  1.994 ns led1_SB_LUT4_I2_I3[5]
+     2.120 ns ..  2.120 ns led1_SB_LUT4_I2_I3[6]
+     2.246 ns ..  2.246 ns led1_SB_LUT4_I2_I3[7]
+     2.372 ns ..  2.569 ns led1_SB_LUT4_I2_I3[8]
+     2.695 ns ..  2.695 ns led1_SB_LUT4_I2_I3[9]
+     2.821 ns ..  2.821 ns led1_SB_LUT4_I2_I3[10]
+     2.947 ns ..  2.947 ns led1_SB_LUT4_I2_I3[11]
+     3.074 ns ..  3.074 ns led1_SB_LUT4_I2_I3[12]
+     3.200 ns ..  3.200 ns led1_SB_LUT4_I2_I3[13]
+     3.326 ns ..  3.326 ns led1_SB_LUT4_I2_I3[14]
+     3.452 ns ..  3.452 ns led1_SB_LUT4_I2_I3[15]
+     3.579 ns ..  3.775 ns led1_SB_LUT4_I2_I3[16]
+     3.901 ns ..  3.901 ns led1_SB_LUT4_I2_I3[17]
+     4.028 ns ..  4.028 ns led1_SB_LUT4_I2_I3[18]
+     4.154 ns ..  4.154 ns led1_SB_LUT4_I2_I3[19]
+     4.280 ns ..  4.280 ns led1_SB_LUT4_I2_I3[20]
+     4.406 ns ..  4.406 ns led1_SB_LUT4_I2_I3[21]
+     4.532 ns ..  4.532 ns led1_SB_LUT4_I2_I3[22]
+     4.659 ns ..  4.659 ns led1_SB_LUT4_I2_I3[23]
+     4.785 ns ..  4.981 ns led1_SB_LUT4_I2_I3[24]
+     5.108 ns ..  5.367 ns led1_SB_LUT4_I2_I3[25]
+                  lcout -> led1$SB_IO_OUT
+
+Total number of logic levels: 26
+Total path delay: 5.58 ns (179.07 MHz)
+
+// Checking 10.00 ns (100.00 MHz) clock constraint: PASSED.

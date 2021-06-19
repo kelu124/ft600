@@ -15,7 +15,7 @@ module top #(
     output             led3
 );
 
-localparam SPAM_MODE = 1'b0;
+localparam SPAM_MODE = 1'b1;
 
 // Synchronous active high reset
 logic [5:0] reset_cnt = 0;
@@ -44,7 +44,7 @@ if (SPAM_MODE == 1) begin // spaming with data all the time
             data_cnt <= data_cnt + 1;
         end
     end
-    assign data = data_cnt;
+    assign data = {data_cnt[DATA_W-1:1], 1'b1};
 
 end else begin // transfer the data with respect to TXEn
     logic wr_drv;
@@ -69,7 +69,7 @@ end else begin // transfer the data with respect to TXEn
 end
 
 logic [25:0] led1_cnt;
-always @(posedge clk) begin
+always_ff @(posedge clk) begin
     if (rst) begin
         led1_cnt <= '0;
     end else begin
@@ -78,6 +78,9 @@ always @(posedge clk) begin
 end
 
 assign led1 = led1_cnt[25];
+
+
+
 assign led2 = SPAM_MODE;
 assign led3 = ~SPAM_MODE;
 
