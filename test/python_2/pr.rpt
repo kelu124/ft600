@@ -1,0 +1,368 @@
+Info: constrained 'data[0]' to bel 'X0/Y11/io0'
+Info: constrained 'data[1]' to bel 'X7/Y0/io1'
+Info: constrained 'data[2]' to bel 'X6/Y0/io1'
+Info: constrained 'data[3]' to bel 'X0/Y6/io1'
+Info: constrained 'data[4]' to bel 'X0/Y6/io0'
+Info: constrained 'data[5]' to bel 'X4/Y0/io1'
+Info: constrained 'data[6]' to bel 'X17/Y0/io0'
+Info: constrained 'data[7]' to bel 'X4/Y0/io0'
+Info: constrained 'clk' to bel 'X0/Y16/io1'
+Info: constrained 'be[0]' to bel 'X0/Y30/io1'
+Info: constrained 'be[1]' to bel 'X0/Y17/io0'
+Info: constrained 'txe_n' to bel 'X3/Y33/io1'
+Info: constrained 'rxf_n' to bel 'X0/Y27/io0'
+Info: constrained 'wr_n' to bel 'X4/Y33/io0'
+Info: constrained 'rd_n' to bel 'X0/Y27/io1'
+Info: constrained 'oe_n' to bel 'X4/Y33/io1'
+Info: constrained 'led1' to bel 'X31/Y33/io1'
+Info: constrained 'led2' to bel 'X33/Y16/io1'
+Info: constrained 'led3' to bel 'X33/Y17/io0'
+Info: constraining clock net 'clk' to 100.00 MHz
+
+Info: Packing constants..
+Info: Packing IOs..
+Info: Packing LUT-FFs..
+Info:       25 LCs used as LUT4 only
+Info:       79 LCs used as LUT4 and DFF
+Info: Packing non-LUT FFs..
+Info:        2 LCs used as DFF only
+Info: Packing carries..
+Info:        1 LCs used as CARRY only
+Info: Packing RAMs..
+Info: Placing PLLs..
+Info: Packing special functions..
+Info: Packing PLLs..
+Info: Promoting globals..
+Info: promoting clk$SB_IO_IN (fanout 81)
+Info: promoting rst [reset] (fanout 70)
+Info: promoting fsm.wrn_next_SB_LUT4_I2_O [cen] (fanout 16)
+Info: Constraining chains...
+Info:        5 LCs used to legalise carry chains.
+Info: Checksum: 0x2ac002d3
+
+Info: Annotating ports with timing budgets for target frequency 12.00 MHz
+Info: Checksum: 0x9cee3be9
+
+Info: Device utilisation:
+Info: 	         ICESTORM_LC:   114/ 7680     1%
+Info: 	        ICESTORM_RAM:     0/   32     0%
+Info: 	               SB_IO:    19/  256     7%
+Info: 	               SB_GB:     3/    8    37%
+Info: 	        ICESTORM_PLL:     0/    2     0%
+Info: 	         SB_WARMBOOT:     0/    1     0%
+
+Info: Placed 19 cells based on constraints.
+Info: Creating initial analytic placement for 54 cells, random placement wirelen = 2453.
+Info:     at initial placer iter 0, wirelen = 295
+Info:     at initial placer iter 1, wirelen = 265
+Info:     at initial placer iter 2, wirelen = 259
+Info:     at initial placer iter 3, wirelen = 263
+Info: Running main analytical placer.
+Info:     at iteration #1, type ICESTORM_LC: wirelen solved = 261, spread = 334, legal = 364; time = 0.00s
+Info:     at iteration #1, type SB_GB: wirelen solved = 364, spread = 391, legal = 395; time = 0.00s
+Info:     at iteration #1, type ALL: wirelen solved = 269, spread = 347, legal = 416; time = 0.00s
+Info:     at iteration #2, type ICESTORM_LC: wirelen solved = 281, spread = 378, legal = 399; time = 0.00s
+Info:     at iteration #2, type SB_GB: wirelen solved = 384, spread = 399, legal = 399; time = 0.00s
+Info:     at iteration #2, type ALL: wirelen solved = 256, spread = 343, legal = 407; time = 0.00s
+Info:     at iteration #3, type ICESTORM_LC: wirelen solved = 277, spread = 374, legal = 406; time = 0.00s
+Info:     at iteration #3, type SB_GB: wirelen solved = 402, spread = 406, legal = 406; time = 0.00s
+Info:     at iteration #3, type ALL: wirelen solved = 258, spread = 379, legal = 425; time = 0.00s
+Info:     at iteration #4, type ICESTORM_LC: wirelen solved = 289, spread = 432, legal = 448; time = 0.00s
+Info:     at iteration #4, type SB_GB: wirelen solved = 432, spread = 446, legal = 448; time = 0.00s
+Info:     at iteration #4, type ALL: wirelen solved = 252, spread = 336, legal = 378; time = 0.00s
+Info:     at iteration #5, type ICESTORM_LC: wirelen solved = 294, spread = 376, legal = 419; time = 0.00s
+Info:     at iteration #5, type SB_GB: wirelen solved = 405, spread = 416, legal = 419; time = 0.00s
+Info:     at iteration #5, type ALL: wirelen solved = 251, spread = 341, legal = 361; time = 0.00s
+Info:     at iteration #6, type ICESTORM_LC: wirelen solved = 300, spread = 343, legal = 401; time = 0.00s
+Info:     at iteration #6, type SB_GB: wirelen solved = 384, spread = 399, legal = 401; time = 0.00s
+Info:     at iteration #6, type ALL: wirelen solved = 255, spread = 338, legal = 391; time = 0.00s
+Info:     at iteration #7, type ICESTORM_LC: wirelen solved = 310, spread = 370, legal = 394; time = 0.00s
+Info:     at iteration #7, type SB_GB: wirelen solved = 380, spread = 391, legal = 394; time = 0.00s
+Info:     at iteration #7, type ALL: wirelen solved = 261, spread = 342, legal = 409; time = 0.00s
+Info:     at iteration #8, type ICESTORM_LC: wirelen solved = 300, spread = 394, legal = 419; time = 0.00s
+Info:     at iteration #8, type SB_GB: wirelen solved = 405, spread = 416, legal = 419; time = 0.00s
+Info:     at iteration #8, type ALL: wirelen solved = 266, spread = 357, legal = 405; time = 0.00s
+Info:     at iteration #9, type ICESTORM_LC: wirelen solved = 299, spread = 351, legal = 394; time = 0.00s
+Info:     at iteration #9, type SB_GB: wirelen solved = 380, spread = 392, legal = 394; time = 0.00s
+Info:     at iteration #9, type ALL: wirelen solved = 268, spread = 347, legal = 384; time = 0.00s
+Info:     at iteration #10, type ICESTORM_LC: wirelen solved = 289, spread = 392, legal = 437; time = 0.00s
+Info:     at iteration #10, type SB_GB: wirelen solved = 423, spread = 434, legal = 437; time = 0.00s
+Info:     at iteration #10, type ALL: wirelen solved = 257, spread = 386, legal = 435; time = 0.00s
+Info: HeAP Placer Time: 0.10s
+Info:   of which solving equations: 0.07s
+Info:   of which spreading cells: 0.01s
+Info:   of which strict legalisation: 0.00s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 4, wirelen = 361
+Info:   at iteration #4: temp = 0.000000, timing cost = 3, wirelen = 338 
+Info: SA placement time 0.01s
+
+Info: Max frequency for clock 'clk$SB_IO_IN_$glb_clk': 122.41 MHz (PASS at 100.00 MHz)
+
+Info: Max delay <async>                       -> <async>                      : 5.51 ns
+Info: Max delay <async>                       -> posedge clk$SB_IO_IN_$glb_clk: 4.34 ns
+Info: Max delay posedge clk$SB_IO_IN_$glb_clk -> <async>                      : 4.21 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 3 endpoint(s)
+Info:          + represents [1,3) endpoint(s)
+Info: [  1831,   5850) |****************************+
+Info: [  5850,   9869) |************************************************************ 
+Info: [  9869,  13888) | 
+Info: [ 13888,  17907) | 
+Info: [ 17907,  21926) | 
+Info: [ 21926,  25945) | 
+Info: [ 25945,  29964) | 
+Info: [ 29964,  33983) | 
+Info: [ 33983,  38002) | 
+Info: [ 38002,  42021) | 
+Info: [ 42021,  46040) | 
+Info: [ 46040,  50059) | 
+Info: [ 50059,  54078) | 
+Info: [ 54078,  58097) | 
+Info: [ 58097,  62116) | 
+Info: [ 62116,  66135) | 
+Info: [ 66135,  70154) | 
+Info: [ 70154,  74173) | 
+Info: [ 74173,  78192) |+
+Info: [ 78192,  82211) |***+
+Info: Checksum: 0x5789a920
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 401 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:        411 |        9        350 |    9   350 |         0|       0.07       0.07|
+Info: Routing complete.
+Info: Router1 time 0.07s
+Info: Checksum: 0xc8a317c1
+
+Info: Critical path report for clock 'clk$SB_IO_IN_$glb_clk' (posedge -> posedge):
+Info: curr total
+Info:  0.5  0.5  Source led1_SB_LUT4_I2_O_SB_LUT4_O_24_LC.O
+Info:  0.6  1.1    Net led1_SB_LUT4_I2_I3[1] budget 4.832000 ns (32,29) -> (31,29)
+Info:                Sink $nextpnr_ICESTORM_LC_3.I1
+Info:                Defined in:
+Info:                  top.sv:49.14-49.22
+Info:  0.3  1.4  Source $nextpnr_ICESTORM_LC_3.COUT
+Info:  0.0  1.4    Net $nextpnr_ICESTORM_LC_3$O budget 0.000000 ns (31,29) -> (31,29)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_12_LC.CIN
+Info:  0.1  1.5  Source led1_SB_LUT4_I2_O_SB_LUT4_O_12_LC.COUT
+Info:  0.0  1.5    Net led1_SB_LUT4_I2_I3[2] budget 0.000000 ns (31,29) -> (31,29)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_6_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  1.6  Source led1_SB_LUT4_I2_O_SB_LUT4_O_6_LC.COUT
+Info:  0.0  1.6    Net led1_SB_LUT4_I2_I3[3] budget 0.000000 ns (31,29) -> (31,29)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_5_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  1.8  Source led1_SB_LUT4_I2_O_SB_LUT4_O_5_LC.COUT
+Info:  0.0  1.8    Net led1_SB_LUT4_I2_I3[4] budget 0.000000 ns (31,29) -> (31,29)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_4_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  1.9  Source led1_SB_LUT4_I2_O_SB_LUT4_O_4_LC.COUT
+Info:  0.0  1.9    Net led1_SB_LUT4_I2_I3[5] budget 0.000000 ns (31,29) -> (31,29)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_3_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  2.0  Source led1_SB_LUT4_I2_O_SB_LUT4_O_3_LC.COUT
+Info:  0.0  2.0    Net led1_SB_LUT4_I2_I3[6] budget 0.000000 ns (31,29) -> (31,29)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_2_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  2.1  Source led1_SB_LUT4_I2_O_SB_LUT4_O_2_LC.COUT
+Info:  0.0  2.1    Net led1_SB_LUT4_I2_I3[7] budget 0.000000 ns (31,29) -> (31,29)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_1_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  2.3  Source led1_SB_LUT4_I2_O_SB_LUT4_O_1_LC.COUT
+Info:  0.2  2.5    Net led1_SB_LUT4_I2_I3[8] budget 0.190000 ns (31,29) -> (31,30)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  2.6  Source led1_SB_LUT4_I2_O_SB_LUT4_O_LC.COUT
+Info:  0.0  2.6    Net led1_SB_LUT4_I2_I3[9] budget 0.000000 ns (31,30) -> (31,30)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_23_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  2.7  Source led1_SB_LUT4_I2_O_SB_LUT4_O_23_LC.COUT
+Info:  0.0  2.7    Net led1_SB_LUT4_I2_I3[10] budget 0.000000 ns (31,30) -> (31,30)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_22_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  2.8  Source led1_SB_LUT4_I2_O_SB_LUT4_O_22_LC.COUT
+Info:  0.0  2.8    Net led1_SB_LUT4_I2_I3[11] budget 0.000000 ns (31,30) -> (31,30)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_21_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  3.0  Source led1_SB_LUT4_I2_O_SB_LUT4_O_21_LC.COUT
+Info:  0.0  3.0    Net led1_SB_LUT4_I2_I3[12] budget 0.000000 ns (31,30) -> (31,30)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_20_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  3.1  Source led1_SB_LUT4_I2_O_SB_LUT4_O_20_LC.COUT
+Info:  0.0  3.1    Net led1_SB_LUT4_I2_I3[13] budget 0.000000 ns (31,30) -> (31,30)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_19_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  3.2  Source led1_SB_LUT4_I2_O_SB_LUT4_O_19_LC.COUT
+Info:  0.0  3.2    Net led1_SB_LUT4_I2_I3[14] budget 0.000000 ns (31,30) -> (31,30)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_18_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  3.3  Source led1_SB_LUT4_I2_O_SB_LUT4_O_18_LC.COUT
+Info:  0.0  3.3    Net led1_SB_LUT4_I2_I3[15] budget 0.000000 ns (31,30) -> (31,30)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_17_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  3.5  Source led1_SB_LUT4_I2_O_SB_LUT4_O_17_LC.COUT
+Info:  0.2  3.7    Net led1_SB_LUT4_I2_I3[16] budget 0.190000 ns (31,30) -> (31,31)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_16_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  3.8  Source led1_SB_LUT4_I2_O_SB_LUT4_O_16_LC.COUT
+Info:  0.0  3.8    Net led1_SB_LUT4_I2_I3[17] budget 0.000000 ns (31,31) -> (31,31)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_15_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  3.9  Source led1_SB_LUT4_I2_O_SB_LUT4_O_15_LC.COUT
+Info:  0.0  3.9    Net led1_SB_LUT4_I2_I3[18] budget 0.000000 ns (31,31) -> (31,31)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_14_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  4.0  Source led1_SB_LUT4_I2_O_SB_LUT4_O_14_LC.COUT
+Info:  0.0  4.0    Net led1_SB_LUT4_I2_I3[19] budget 0.000000 ns (31,31) -> (31,31)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_13_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  4.2  Source led1_SB_LUT4_I2_O_SB_LUT4_O_13_LC.COUT
+Info:  0.0  4.2    Net led1_SB_LUT4_I2_I3[20] budget 0.000000 ns (31,31) -> (31,31)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_11_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  4.3  Source led1_SB_LUT4_I2_O_SB_LUT4_O_11_LC.COUT
+Info:  0.0  4.3    Net led1_SB_LUT4_I2_I3[21] budget 0.000000 ns (31,31) -> (31,31)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_10_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  4.4  Source led1_SB_LUT4_I2_O_SB_LUT4_O_10_LC.COUT
+Info:  0.0  4.4    Net led1_SB_LUT4_I2_I3[22] budget 0.000000 ns (31,31) -> (31,31)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_9_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  4.6  Source led1_SB_LUT4_I2_O_SB_LUT4_O_9_LC.COUT
+Info:  0.0  4.6    Net led1_SB_LUT4_I2_I3[23] budget 0.000000 ns (31,31) -> (31,31)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_8_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  4.7  Source led1_SB_LUT4_I2_O_SB_LUT4_O_8_LC.COUT
+Info:  0.2  4.9    Net led1_SB_LUT4_I2_I3[24] budget 0.190000 ns (31,31) -> (31,32)
+Info:                Sink led1_SB_LUT4_I2_O_SB_LUT4_O_7_LC.CIN
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.1  5.0  Source led1_SB_LUT4_I2_O_SB_LUT4_O_7_LC.COUT
+Info:  0.3  5.3    Net led1_SB_LUT4_I2_I3[25] budget 0.260000 ns (31,32) -> (31,32)
+Info:                Sink led1_SB_LUT4_I2_LC.I3
+Info:                Defined in:
+Info:                  top.sv:54.21-54.36
+Info:                  /usr/local/bin/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.3  5.6  Setup led1_SB_LUT4_I2_LC.I3
+Info: 4.2 ns logic, 1.4 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> '<async>':
+Info: curr total
+Info:  0.0  0.0  Source txe_n$sb_io.D_IN_0
+Info:  3.7  3.7    Net txe_n$SB_IO_IN budget 41.508999 ns (3,33) -> (28,16)
+Info:                Sink led2_SB_LUT4_O_LC.I3
+Info:                Defined in:
+Info:                  top.sv:11.24-11.29
+Info:  0.3  4.0  Source led2_SB_LUT4_O_LC.O
+Info:  1.2  5.2    Net led2$SB_IO_OUT budget 39.742001 ns (28,16) -> (33,16)
+Info:                Sink led2$sb_io.D_OUT_0
+Info:                Defined in:
+Info:                  top.sv:14.24-14.28
+Info: 0.3 ns logic, 4.9 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> 'posedge clk$SB_IO_IN_$glb_clk':
+Info: curr total
+Info:  0.0  0.0  Source txe_n$sb_io.D_IN_0
+Info:  2.7  2.7    Net txe_n$SB_IO_IN budget 4.612000 ns (3,33) -> (2,5)
+Info:                Sink txe_n_SB_LUT4_I2_LC.I2
+Info:                Defined in:
+Info:                  top.sv:11.24-11.29
+Info:  0.4  3.0  Source txe_n_SB_LUT4_I2_LC.O
+Info:  0.6  3.6    Net txe_n_SB_LUT4_I2_O[2] budget 3.285000 ns (2,5) -> (2,4)
+Info:                Sink fsm.fsm_state_SB_DFF_Q_2_D_SB_LUT4_O_LC.I2
+Info:                Defined in:
+Info:                  /usr/local/bin/../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:  0.4  4.0  Setup fsm.fsm_state_SB_DFF_Q_2_D_SB_LUT4_O_LC.I2
+Info: 0.8 ns logic, 3.2 ns routing
+
+Info: Critical path report for cross-domain path 'posedge clk$SB_IO_IN_$glb_clk' -> '<async>':
+Info: curr total
+Info:  0.5  0.5  Source fsm.wrn_SB_DFFESS_Q_DFFLC.O
+Info:  2.7  3.2    Net wr_n$SB_IO_OUT budget 41.238998 ns (2,5) -> (1,30)
+Info:                Sink be_SB_LUT4_O_LC.I3
+Info:                Defined in:
+Info:                  top.sv:9.24-9.28
+Info:  0.3  3.5  Source be_SB_LUT4_O_LC.O
+Info:  0.6  4.1    Net $be[0]$iobuf_i budget 40.081001 ns (1,30) -> (0,30)
+Info:                Sink be[0]$sb_io.D_OUT_0
+Info: 0.9 ns logic, 3.2 ns routing
+
+Info: Max frequency for clock 'clk$SB_IO_IN_$glb_clk': 178.76 MHz (PASS at 100.00 MHz)
+
+Info: Max delay <async>                       -> <async>                      : 5.18 ns
+Info: Max delay <async>                       -> posedge clk$SB_IO_IN_$glb_clk: 4.02 ns
+Info: Max delay posedge clk$SB_IO_IN_$glb_clk -> <async>                      : 4.10 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 3 endpoint(s)
+Info:          + represents [1,3) endpoint(s)
+Info: [  4406,   8296) |************************************************************ 
+Info: [  8296,  12186) |***********************+
+Info: [ 12186,  16076) | 
+Info: [ 16076,  19966) | 
+Info: [ 19966,  23856) | 
+Info: [ 23856,  27746) | 
+Info: [ 27746,  31636) | 
+Info: [ 31636,  35526) | 
+Info: [ 35526,  39416) | 
+Info: [ 39416,  43306) | 
+Info: [ 43306,  47196) | 
+Info: [ 47196,  51086) | 
+Info: [ 51086,  54976) | 
+Info: [ 54976,  58866) | 
+Info: [ 58866,  62756) | 
+Info: [ 62756,  66646) | 
+Info: [ 66646,  70536) | 
+Info: [ 70536,  74426) | 
+Info: [ 74426,  78316) |+
+Info: [ 78316,  82206) |***+
