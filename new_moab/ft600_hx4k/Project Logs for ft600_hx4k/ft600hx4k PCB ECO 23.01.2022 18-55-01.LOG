@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=p1_9 Pin=IC1-137
+Removed Pin From Net: NetName=p1_8 Pin=IC1-138
+Removed Pin From Net: NetName=p1_7 Pin=IC1-139
+Removed Pin From Net: NetName=p1_4 Pin=IC1-141
+Removed Pin From Net: NetName=p1_3 Pin=IC1-142
+Removed Pin From Net: NetName=p1_2 Pin=IC1-143
+Added Pin To Net: NetName=p1_4 Pin=IC1-137
+Added Pin To Net: NetName=p1_9 Pin=IC1-138
+Added Pin To Net: NetName=p1_3 Pin=IC1-139
+Added Pin To Net: NetName=p1_8 Pin=IC1-141
+Added Pin To Net: NetName=p1_2 Pin=IC1-142
+Added Pin To Net: NetName=p1_7 Pin=IC1-143

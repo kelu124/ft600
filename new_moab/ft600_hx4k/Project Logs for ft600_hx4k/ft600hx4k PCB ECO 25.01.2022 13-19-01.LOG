@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=aoof Pin=IC1-12
+Removed Pin From Net: NetName=aD11 Pin=IC1-15
+Added Pin To Net: NetName=aoof Pin=IC1-7
+Added Pin To Net: NetName=aD11 Pin=IC1-8
+Added Room: Name=ft600_AD
+Added Room: Name=ft600hx4k

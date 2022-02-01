@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=aoof Pin=IC1-7
+Removed Pin From Net: NetName=aD11 Pin=IC1-8
+Added Pin To Net: NetName=aoof Pin=IC1-1
+Added Pin To Net: NetName=aD11 Pin=IC1-2

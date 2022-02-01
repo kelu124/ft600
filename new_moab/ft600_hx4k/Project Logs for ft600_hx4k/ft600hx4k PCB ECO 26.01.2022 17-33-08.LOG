@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=p5_7 Pin=IC1-47
+Removed Pin From Net: NetName=p5_1 Pin=IC1-48
+Removed Pin From Net: NetName=p5_8 Pin=IC1-49
+Removed Pin From Net: NetName=p5_4 Pin=IC1-52
+Removed Pin From Net: NetName=p5_2 Pin=IC1-55
+Removed Pin From Net: NetName=p5_9 Pin=IC1-56
+Removed Pin From Net: NetName=p5_3 Pin=IC1-60
+Removed Pin From Net: NetName=p5_10 Pin=IC1-61
+Added Pin To Net: NetName=p5_10 Pin=IC1-47
+Added Pin To Net: NetName=p5_4 Pin=IC1-48
+Added Pin To Net: NetName=p5_9 Pin=IC1-49
+Added Pin To Net: NetName=p5_3 Pin=IC1-52
+Added Pin To Net: NetName=p5_8 Pin=IC1-55
+Added Pin To Net: NetName=p5_2 Pin=IC1-56
+Added Pin To Net: NetName=p5_7 Pin=IC1-60
+Added Pin To Net: NetName=p5_1 Pin=IC1-61

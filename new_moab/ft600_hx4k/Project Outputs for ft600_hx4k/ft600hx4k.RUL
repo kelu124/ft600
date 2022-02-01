@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: E:\my_work\Luc\ft600_HX4K\ft600_hx4k\ft600hx4k.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=3.94
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance_2|Scope=Board|Minimum=8.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

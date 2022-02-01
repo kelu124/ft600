@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=aD9 Pin=IC1-17
+Removed Pin From Net: NetName=5VVGA Pin=IC6-13
+Added Pin To Net: NetName=aD9 Pin=IC1-7
+Added Pin To Net: NetName=hilo Pin=IC1-31
+Added Pin To Net: NetName=hilo Pin=IC6-13
+Added Net: Name=hilo

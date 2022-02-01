@@ -1,0 +1,112 @@
+*************************************************************
+FileName = ft600hx4k.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\matrix\matrix
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\profile
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\stephdr
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\mechanical_1\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\mechanical_1\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\mechanical_8\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\mechanical_8\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\mechanical_13\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\mechanical_13\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\mechanical_17\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\mechanical_17\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\keep-out_layer\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\keep-out_layer\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\mechanical_15\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\mechanical_15\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\mechanical_14\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\mechanical_14\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\bottom_paste\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\bottom_paste\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\bottom_overlay\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\bottom_overlay\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\top_overlay\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\top_overlay\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\bottom_layer\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\bottom_layer\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\top_paste\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\top_paste\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\top_solder\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\top_layer\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\top_layer\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\drill\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\drill\attrlist
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\drill\tools
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\comp_+_bot\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\comp_+_bot\components
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\steps\pcb\eda\data
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\symbols\s3251.2_315\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\symbols\rect812.8x304.8_225\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\symbols\rect812.8x304.8_315\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\symbols\s3251.2_315\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\symbols\rect812.8x304.8_225\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\symbols\rect812.8x304.8_315\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\symbols\s3454.4_315\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\symbols\rect1016x508_225\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\symbols\rect1016x508_315\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\symbols\s3251.2_315\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\symbols\rect812.8x304.8_225\features
+
+Generated File : E:\my_work\Luc\ft600_HX4K\ft600_hx4k\Project Outputs for ft600_hx4k\odb\symbols\rect812.8x304.8_315\features
+

@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=p6_1 Pin=IC3-21
+Removed Pin From Net: NetName=p6_7 Pin=IC3-25
+Removed Pin From Net: NetName=p6_2 Pin=IC3-26
+Removed Pin From Net: NetName=p6_8 Pin=IC3-27
+Removed Pin From Net: NetName=p6_3 Pin=IC3-28
+Removed Pin From Net: NetName=p6_9 Pin=IC3-29
+Removed Pin From Net: NetName=p6_4 Pin=IC3-30
+Removed Pin From Net: NetName=p6_10 Pin=IC3-31
+Added Pin To Net: NetName=p6_10 Pin=IC3-21
+Added Pin To Net: NetName=p6_4 Pin=IC3-25
+Added Pin To Net: NetName=p6_9 Pin=IC3-26
+Added Pin To Net: NetName=p6_3 Pin=IC3-27
+Added Pin To Net: NetName=p6_8 Pin=IC3-28
+Added Pin To Net: NetName=p6_2 Pin=IC3-29
+Added Pin To Net: NetName=p6_7 Pin=IC3-30
+Added Pin To Net: NetName=p6_1 Pin=IC3-31

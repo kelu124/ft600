@@ -1,0 +1,90 @@
+Added Component: Designator=K1(PMOD_6x2_RA_FEMALE)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=K2(PMOD_6x2_RA_FEMALE)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=K3(PMOD_6x2_RA_FEMALE)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=K4(PMOD_6x2_RA_FEMALE)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=K5(PMOD_6x2_RA_FEMALE)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=K6(PMOD_6x2_RA_FEMALE)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=p1_1 Pin=K1-1
+Added Pin To Net: NetName=p1_2 Pin=K1-2
+Added Pin To Net: NetName=p1_3 Pin=K1-3
+Added Pin To Net: NetName=p1_4 Pin=K1-4
+Added Pin To Net: NetName=GND Pin=K1-5
+Added Pin To Net: NetName=+3V3 Pin=K1-6
+Added Pin To Net: NetName=p1_7 Pin=K1-7
+Added Pin To Net: NetName=p1_8 Pin=K1-8
+Added Pin To Net: NetName=p1_9 Pin=K1-9
+Added Pin To Net: NetName=p1_10 Pin=K1-10
+Added Pin To Net: NetName=GND Pin=K1-11
+Added Pin To Net: NetName=+3V3 Pin=K1-12
+Added Pin To Net: NetName=p2_1 Pin=K2-1
+Added Pin To Net: NetName=p2_2 Pin=K2-2
+Added Pin To Net: NetName=p2_3 Pin=K2-3
+Added Pin To Net: NetName=p2_4 Pin=K2-4
+Added Pin To Net: NetName=GND Pin=K2-5
+Added Pin To Net: NetName=+3V3 Pin=K2-6
+Added Pin To Net: NetName=p2_7 Pin=K2-7
+Added Pin To Net: NetName=p2_8 Pin=K2-8
+Added Pin To Net: NetName=p2_9 Pin=K2-9
+Added Pin To Net: NetName=p2_10 Pin=K2-10
+Added Pin To Net: NetName=GND Pin=K2-11
+Added Pin To Net: NetName=+3V3 Pin=K2-12
+Added Pin To Net: NetName=p3_1 Pin=K3-1
+Added Pin To Net: NetName=p3_2 Pin=K3-2
+Added Pin To Net: NetName=p3_3 Pin=K3-3
+Added Pin To Net: NetName=p3_4 Pin=K3-4
+Added Pin To Net: NetName=GND Pin=K3-5
+Added Pin To Net: NetName=+3V3 Pin=K3-6
+Added Pin To Net: NetName=p3_7 Pin=K3-7
+Added Pin To Net: NetName=p3_8 Pin=K3-8
+Added Pin To Net: NetName=p3_9 Pin=K3-9
+Added Pin To Net: NetName=p3_10 Pin=K3-10
+Added Pin To Net: NetName=GND Pin=K3-11
+Added Pin To Net: NetName=+3V3 Pin=K3-12
+Added Pin To Net: NetName=p4_1 Pin=K4-1
+Added Pin To Net: NetName=p4_2 Pin=K4-2
+Added Pin To Net: NetName=p4_3 Pin=K4-3
+Added Pin To Net: NetName=p4_4 Pin=K4-4
+Added Pin To Net: NetName=GND Pin=K4-5
+Added Pin To Net: NetName=+3V3 Pin=K4-6
+Added Pin To Net: NetName=p4_7 Pin=K4-7
+Added Pin To Net: NetName=p4_8 Pin=K4-8
+Added Pin To Net: NetName=p4_9 Pin=K4-9
+Added Pin To Net: NetName=p4_10 Pin=K4-10
+Added Pin To Net: NetName=GND Pin=K4-11
+Added Pin To Net: NetName=+3V3 Pin=K4-12
+Added Pin To Net: NetName=p5_1 Pin=K5-1
+Added Pin To Net: NetName=p5_2 Pin=K5-2
+Added Pin To Net: NetName=p5_3 Pin=K5-3
+Added Pin To Net: NetName=p5_4 Pin=K5-4
+Added Pin To Net: NetName=GND Pin=K5-5
+Added Pin To Net: NetName=+3V3 Pin=K5-6
+Added Pin To Net: NetName=p5_7 Pin=K5-7
+Added Pin To Net: NetName=p5_8 Pin=K5-8
+Added Pin To Net: NetName=p5_9 Pin=K5-9
+Added Pin To Net: NetName=p5_10 Pin=K5-10
+Added Pin To Net: NetName=GND Pin=K5-11
+Added Pin To Net: NetName=+3V3 Pin=K5-12
+Added Pin To Net: NetName=p6_1 Pin=K6-1
+Added Pin To Net: NetName=p6_2 Pin=K6-2
+Added Pin To Net: NetName=p6_3 Pin=K6-3
+Added Pin To Net: NetName=p6_4 Pin=K6-4
+Added Pin To Net: NetName=GND Pin=K6-5
+Added Pin To Net: NetName=+3V3 Pin=K6-6
+Added Pin To Net: NetName=p6_7 Pin=K6-7
+Added Pin To Net: NetName=p6_8 Pin=K6-8
+Added Pin To Net: NetName=p6_9 Pin=K6-9
+Added Pin To Net: NetName=p6_10 Pin=K6-10
+Added Pin To Net: NetName=GND Pin=K6-11
+Added Pin To Net: NetName=+3V3 Pin=K6-12
+Added Member To Class: ClassName=ft600hx4k Member=Component K1 PMOD_6x2_ra_female
+Added Member To Class: ClassName=ft600hx4k Member=Component K2 PMOD_6x2_ra_female
+Added Member To Class: ClassName=ft600hx4k Member=Component K3 PMOD_6x2_ra_female
+Added Member To Class: ClassName=ft600hx4k Member=Component K4 PMOD_6x2_ra_female
+Added Member To Class: ClassName=ft600hx4k Member=Component K5 PMOD_6x2_ra_female
+Added Member To Class: ClassName=ft600hx4k Member=Component K6 PMOD_6x2_ra_female

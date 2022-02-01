@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LRED Pin=IC1-110
+Removed Pin From Net: NetName=LGRN Pin=IC1-112
+Added Pin To Net: NetName=LGRN Pin=IC1-110
+Added Pin To Net: NetName=LRED Pin=IC1-112

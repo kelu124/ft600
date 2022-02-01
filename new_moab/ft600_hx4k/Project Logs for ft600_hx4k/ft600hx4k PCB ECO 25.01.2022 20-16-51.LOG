@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=hilo Pin=IC1-31
+Removed Pin From Net: NetName=dMOSI Pin=IC1-32
+Removed Pin From Net: NetName=dSCLK Pin=IC1-33
+Removed Pin From Net: NetName=dCS Pin=IC1-34
+Added Pin To Net: NetName=dMOSI Pin=IC1-31
+Added Pin To Net: NetName=dSCLK Pin=IC1-32
+Added Pin To Net: NetName=dCS Pin=IC1-33
+Added Pin To Net: NetName=hilo Pin=IC1-34

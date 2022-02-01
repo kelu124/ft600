@@ -1,0 +1,2 @@
+Change Component Comment : Designator=R32 Old Comment=1k New Comment=10k
+Added Pin To Net: NetName=+3V3 Pin=R32-1

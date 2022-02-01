@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=ftxe Pin=IC1-80
+Removed Pin From Net: NetName=fwr Pin=IC1-82
+Added Pin To Net: NetName=fwr Pin=IC1-80
+Added Pin To Net: NetName=ftxe Pin=IC1-82
