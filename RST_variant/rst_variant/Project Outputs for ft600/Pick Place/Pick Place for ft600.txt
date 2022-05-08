@@ -1,0 +1,49 @@
+Altium Designer Pick and Place Locations
+E:\FREEL\Luc\Luc\altium\Project Outputs for ft600\Pick Place\Pick Place for ft600.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       05/05/22
+Time:       18:28
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment          Layer       Footprint              Center-X(mil) Center-Y(mil) Rotation Description                                                          
+J          4-103321-4       TopLayer    TE_4-103321-4          2260.000      1670.000      360      "Conn Unshrouded Header HDR 2 POS 2.54mm Solder ST Thru-Hole Carton" 
+JP3        JUMPER2          TopLayer    JUMPER2                2568.110      2844.488      270      ""                                                                   
+L1         75R@100MHz       TopLayer    SM0603_3D_res          1690.000      2534.449      90       "chip inductance 0603"                                               
+R10        36k              TopLayer    SM0603_3D_res          1925.551      2613.964      180      Res_0603_EU                                                          
+R9         36k              TopLayer    SM0603_3D_res          1924.998      2684.997      180      Res_0603_EU                                                          
+R8         4k7              TopLayer    SM0603_3D_res          2479.998      2494.997      180      Res_0603_EU                                                          
+R7         4k7              TopLayer    SM0603_3D_res          2479.998      2569.997      180      Res_0603_EU                                                          
+R6         "1.6k 1%"        BottomLayer SM0603_3D_res          2253.453      2173.969      180      Res_0603_EU                                                          
+R5         2k               TopLayer    SM0603_3D_res          2479.449      2645.000      180      Res_0603_EU                                                          
+R4         2k               TopLayer    SM0603_3D_res          2479.998      2719.997      180      Res_0603_EU                                                          
+R3         10k              TopLayer    SM0603_3D_res          2294.998      2814.997      180      Res_0603_EU                                                          
+R2         4k7              TopLayer    SM0603_3D_res          2099.997      1885.002      90       Res_0603_EU                                                          
+R1         10k              TopLayer    SM0603_3D_res          2180.000      1884.449      270      Res_0603_EU                                                          
+Y1         ABM3B-30MHZ      TopLayer    ABM3B                  1965.000      2395.000      180      "Crystal or Oscillator"                                              
+U1         XC6206           TopLayer    SOT-23                 1925.000      2845.000      360      "SOT-23-3 ldo"                                                       
+K2         PMOD_6x2_ra_male TopLayer    PMOD_6x2_right_ANGLE   3100.000      2600.000      90       PMOD_6x2_right_angle                                                 
+K1         PMOD_6x2_ra_male TopLayer    PMOD_6x2_right_ANGLE   3100.000      1700.000      90       PMOD_6x2_right_angle                                                 
+JP2        JUMPER2          TopLayer    JUMPER2                2285.324      2559.971      270      ""                                                                   
+JP1        JUMPER2          TopLayer    JUMPER2                2285.324      2659.971      270      ""                                                                   
+J1         GSB343T33HR      TopLayer    GSB343T33HR            1481.693      2169.685      270      Connector                                                            
+IC1        FT600Q-T         TopLayer    QFN40P700X700X90-57N-D 2350.000      2175.000      270      "Integrated Circuit"                                                 
+C15        cap0603          BottomLayer SM0603__3D_cap         2244.997      2079.998      270      "Capacitor  0603 inch"                                               
+C14        cap0603          BottomLayer SM0603__3D_cap         2389.997      2079.998      270      "Capacitor  0603 inch"                                               
+C13        cap0603          BottomLayer SM0603__3D_cap         2254.998      2240.003      180      "Capacitor  0603 inch"                                               
+C12        cap0603          BottomLayer SM0603__3D_cap         2485.000      2140.551      90       "Capacitor  0603 inch"                                               
+C11        cap0603          BottomLayer SM0603__3D_cap         2318.963      2079.998      270      "Capacitor  0603 inch"                                               
+C10        cap0603          TopLayer    SM0603__3D_cap         2125.000      2409.449      270      "Capacitor  0603 inch"                                               
+C9         cap0603          TopLayer    SM0603__3D_cap         1800.003      2404.998      270      "Capacitor  0603 inch"                                               
+C8         cap0603          TopLayer    SM0603__3D_cap         2295.002      2890.003      360      "Capacitor  0603 inch"                                               
+C7         cap0603          TopLayer    SM0603__3D_cap         1690.000      2369.449      270      "Capacitor  0603 inch"                                               
+C6         CAP_POL_SMA      TopLayer    CAP_POL_SMA_(3216)     2150.000      2826.812      90       CAP_POL_SMA(3216)                                                    
+C5         cap0603          TopLayer    SM0603__3D_cap         2040.003      2844.998      270      "Capacitor  0603 inch"                                               
+C4         cap0603          TopLayer    SM0603__3D_cap         1795.000      2850.551      270      "Capacitor  0603 inch"                                               
+C3         CAP_POL_SMA      TopLayer    CAP_POL_SMA_(3216)     1695.000      2821.812      90       CAP_POL_SMA(3216)                                                    
+C2         cap0402          TopLayer    SM0402_3D_cap          1775.002      2092.749      360      "Capacitor  0402 inch"                                               
+C1         cap0402          TopLayer    SM0402_3D_cap          1775.002      2140.003      0        "Capacitor  0402 inch"                                               

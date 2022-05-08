@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=D0_rst Pin=J?-1
+Removed Pin From Net: NetName=D0 Pin=J?-2
+Added Component: Designator=J(TE_4-103321-4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "A122847-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "EU_RoHS_Compliance"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "4-103321-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/4-103321-4/TE%20Connectivity%20AMP%20Connectors/view-part/2402753/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=D0_rst Pin=J-1
+Added Pin To Net: NetName=D0 Pin=J-2
+Added Member To Class: ClassName=ft600 Member=Component J 4-103321-4
+Added Room: Name=ft600

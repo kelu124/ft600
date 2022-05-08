@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=D0_rst Pin=IC1-33
+Removed Pin From Net: NetName=D0_rst Pin=K1-1
+Added Component: Designator=J?(AMPHENOL_77311-101-02LF)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/77311-101-02LF/Amphenol+FCI/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Amphenol ICC (FCI)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "77311-101-02LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/77311-101-02LF/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/77311-101-02LF/Amphenol+FCI/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=D0_rst Pin=J?-1
+Added Pin To Net: NetName=D0 Pin=IC1-33
+Added Pin To Net: NetName=D0 Pin=J?-2
+Added Pin To Net: NetName=D0 Pin=K1-1
+Added Net: Name=D0
+Added Member To Class: ClassName=ft600 Member=Component J? 77311-101-02LF
+Added Member To Class: ClassName=data Member=Wire D0
+Added Room: Name=ft600

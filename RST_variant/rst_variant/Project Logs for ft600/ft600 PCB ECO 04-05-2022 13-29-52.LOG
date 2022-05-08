@@ -1,0 +1,18 @@
+Removed Member From Class: ClassName=data Member=D0
+Change Component Comment : Designator=R9 Old Comment=2k New Comment=36k
+Change Component Comment : Designator=R10 Old Comment=2k New Comment=36k
+Change Component Comment : Designator=R4 Old Comment=36k New Comment=2k
+Change Component Comment : Designator=R5 Old Comment=36k New Comment=2k
+Change component parameters: Designator = "C3"; Footprint = "CAP_POL_SMA (3216)"; UniqueID = "\JNRBCQYX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = ""; Value = "22.0 uf"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6"; Footprint = "CAP_POL_SMA (3216)"; UniqueID = "\PSPOCUHE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = ""; Value = "22.0 uf"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1"; Footprint = "SOT-23"; UniqueID = "\WATHJHOY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = ""; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=rst Pin=IC1-33
+Added Pin To Net: NetName=rst Pin=K1-1
+Change Net Name : Old Net Name=rst New Net Name=D0_rst
+Added Room: Name=ft600

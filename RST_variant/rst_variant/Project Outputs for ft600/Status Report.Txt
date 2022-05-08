@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 6:28:24 PM On 5/5/2022
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : PCB Document [ft600.PcbDoc]
+   Generated File[Pick Place for ft600.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 6:28:40 PM On 5/5/2022
